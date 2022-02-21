@@ -1,0 +1,27 @@
+{
+    "name": "uelnur/symfony-entity-action",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yelnur Urazymbetov",
+            "email": "311293e@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Uelnur\\SymfonyEntityAction\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Uelnur\\SymfonyEntityAction\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "symfony/security-core": "^5.4",
+        "doctrine/orm": "^2.11.1",
+        "symfony/event-dispatcher-contracts": "^2.5",
+        "symfony/validator": "^5.4"
+    }
+}
