@@ -19,9 +19,9 @@
         }
     },
     "require": {
-        "symfony/security-core": "^5.4",
-        "doctrine/orm": "^2.11.1",
-        "symfony/event-dispatcher-contracts": "^2.5",
-        "symfony/validator": "^5.4"
+        "symfony/security-core": "^3|^4|^5",
+        "doctrine/orm": "^2",
+        "symfony/event-dispatcher-contracts": "^2",
+        "symfony/validator": "^3|^4|^5"
     }
 }
