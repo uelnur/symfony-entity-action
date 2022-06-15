@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Component\Action\Event;
+namespace Uelnur\SymfonyEntityAction\Event;
 
-use App\Component\Action\ActionInterface;
+use Uelnur\SymfonyEntityAction\ActionInterface;
 
 class ActionPreCreateParamsEvent {
     public const NAME = 'action.pre_create_params';

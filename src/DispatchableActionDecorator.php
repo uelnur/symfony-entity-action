@@ -2,12 +2,12 @@
 
 namespace Uelnur\SymfonyEntityAction;
 
-use App\Component\Action\Event\ActionPostCreateDataEvent;
-use App\Component\Action\Event\ActionPostCreateParamsEvent;
-use App\Component\Action\Event\ActionPostHandleEvent;
-use App\Component\Action\Event\ActionPreCreateDataEvent;
-use App\Component\Action\Event\ActionPreCreateParamsEvent;
-use App\Component\Action\Event\ActionPreHandleEvent;
+use Uelnur\SymfonyEntityAction\Event\ActionPostCreateDataEvent;
+use Uelnur\SymfonyEntityAction\Event\ActionPostCreateParamsEvent;
+use Uelnur\SymfonyEntityAction\Event\ActionPostHandleEvent;
+use Uelnur\SymfonyEntityAction\Event\ActionPreCreateDataEvent;
+use Uelnur\SymfonyEntityAction\Event\ActionPreCreateParamsEvent;
+use Uelnur\SymfonyEntityAction\Event\ActionPreHandleEvent;
 use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 use Symfony\Contracts\Service\Attribute\Required;
 

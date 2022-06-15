@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Component\Action\Event;
+namespace Uelnur\SymfonyEntityAction\Event;
 
-use App\Component\Action\ActionInterface;
+use Uelnur\SymfonyEntityAction\ActionInterface;
 
 class ActionPreHandleEvent {
     public const NAME = 'action.pre_handle';

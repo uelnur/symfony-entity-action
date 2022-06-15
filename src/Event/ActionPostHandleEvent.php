@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Component\Action\Event;
+namespace Uelnur\SymfonyEntityAction\Event;
 
-use App\Component\Action\ActionInterface;
-use App\Component\Action\ActionStatusInterface;
+use Uelnur\SymfonyEntityAction\ActionInterface;
+use Uelnur\SymfonyEntityAction\ActionStatusInterface;
 
 class ActionPostHandleEvent {
     public const NAME = 'action.post_handle';
